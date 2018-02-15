@@ -1,0 +1,56 @@
+//
+//  main.cpp
+//  assignment01
+//
+//  Created by Ginger Alleyne on 2/14/18.
+//  Copyright © 2018 Ginger Alleyne. All rights reserved.
+//
+//
+//  Assignment01.cpp
+//
+//
+//  Created by Ginger Alleyne on 2/14/18.
+//
+//
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    double a, c, firstResult, secondResult;
+    int n, thirdResult;
+    
+    cout << "=======================================================\n";
+    cout << "                         Program 1                     \n";
+    cout << "                     by Ginger Alleyne                 \n";
+    cout << "=======================================================\n\n";
+    
+    cout << "Enter two decimal numbers and an interger,";
+    cout << "seperated by spaces : \n\n";
+    
+    cin >> a;
+    cin >> c;
+    cin >> n;
+    
+    cin.ignore (128, '\n');
+    
+    cout << "Variable                   Values                \n";
+    cout << "---------------------      ----------------------\n";
+    
+    cout << "First double input value    " << a << endl;
+    
+    cout << "Second double input value   " << c << endl;
+    
+    cout << "Interger input value        " << n << endl;
+    
+    cout << "First Result                "  <<
+    
+    
+    
+    return 0;
+    
+    
+}
+
